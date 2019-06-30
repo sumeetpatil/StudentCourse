@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<title>Semester Registration</title>
+</head>
+<body>
+	<div>
+		<div id="success" class="alert alert-success" role="alert"></div>
+		<div id="error" class="alert alert-danger" role="alert"></div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Student Semester Registration</div>
+
+		<!-- login page -->
+		<div class="card-body" id="page_login">
+			<h5 class="card-title">Login</h5>
+			<div class="form-group">
+				<label for="inpStudentId">Student Id</label> <input type="text"
+					class="form-control" id="inpStudentId" placeholder="Student Id">
+			</div>
+			<div class="form-group">
+				<label for="inpPassword">Password</label> <input type="password"
+					class="form-control" id="inpPassword" placeholder="Password">
+			</div>
+			<button id="btnLogin" class="btn btn-primary">Login</button>
+		</div>
+
+		<!-- registration page -->
+		<div class="card-body" id="page_registration">
+			<h5 class="card-title" id="department"></h5>
+			<div class="form-group">
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col">Id</th>
+							<th scope="col">Course Name</th>
+							<th scope="col">Status</th>
+						</tr>
+					</thead>
+					<tbody id="page_registration_table">
+
+					</tbody>
+				</table>
+			</div>
+
+			<div class="form-group">
+				<label for="elective" id="electiveTitle"></label> <select
+					id="elective" class="form-control">
+				</select>
+			</div>
+			<button id="btnRegister" class="btn btn-primary">Register</button>
+		</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/logging.js"></script>
+	<script type="text/javascript" src="../js/remote.js"></script>
+</body>
+</html>
