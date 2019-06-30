@@ -49,13 +49,21 @@ $(document).ready(function() {
 			});
 		});
 
+		if(electiveTitle){
+			$("#electiveTitle").show();
+			$("#electiveTitle").html(electiveTitle);
+		}else{
+			$("#electiveTitle").hide();
+			$("#electiveTitle").html("");
+		}
+		
 		if(electiveHtml){
-			if(electiveTitle){
-				$("#electiveTitle").html(electiveTitle);
-			}
-
+			$("#elective").show();
 			$("#elective").html("");
 			$("#elective").append(electiveHtml);
+		}else{
+			$("#elective").hide();
+			$("#elective").html("");
 		}
 	});
 });

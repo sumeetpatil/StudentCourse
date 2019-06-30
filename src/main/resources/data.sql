@@ -37,12 +37,18 @@ insert IGNORE INTO course values(15, "Programming in JAVA", 1, 2, 2);
 insert IGNORE INTO course values(16, "Introduction to Operating System", 1, 2, 2);
 
 
-insert IGNORE INTO course values(1, "Mech Sub1", 2, NULL, 1);
-insert IGNORE INTO course values(2, "Mech Sub2", 2, NULL, 1);
-insert IGNORE INTO course values(3, "Mech Sub3", 2, NULL, 1);
-insert IGNORE INTO course values(4, "Mech Sub4", 2, NULL, 1);
-insert IGNORE INTO course values(5, "Mech Sub5", 2, NULL, 1);
+insert IGNORE INTO course values(17, "Mech Sub1", 2, NULL, 1);
+insert IGNORE INTO course values(18, "Mech Sub2", 2, NULL, 1);
+insert IGNORE INTO course values(19, "Mech Sub3", 2, NULL, 1);
+insert IGNORE INTO course values(20, "Mech Sub4", 2, NULL, 1);
+insert IGNORE INTO course values(21, "Mech Sub5", 2, NULL, 1);
+
+insert IGNORE INTO course values(22, "Mech Sub1 2", 2, NULL, 2);
+insert IGNORE INTO course values(23, "Mech Sub2 2", 2, NULL, 2);
+insert IGNORE INTO course values(24, "Mech Sub3 2", 2, NULL, 2);
+insert IGNORE INTO course values(25, "Mech Sub4 2" , 2, NULL, 2);
+insert IGNORE INTO course values(26, "Mech Sub5 2" , 2, NULL, 2);
 
 
 insert IGNORE INTO student values(1, "Sumeet","Patil" ,1, 1);
-insert IGNORE INTO student values(2, "Prashant","Gurav" ,1, 2);
+insert IGNORE INTO student values(2, "Prashant","Gurav" ,2, 2);
