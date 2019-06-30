@@ -14,11 +14,15 @@ import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
 @Table(name = "department")
+@AllArgsConstructor
+@NoArgsConstructor
 @JsonIgnoreProperties(value = { "course", "student" })
 public class Department {
 	@Id
