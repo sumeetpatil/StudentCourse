@@ -66,7 +66,7 @@ var page = {
 			$("#"+id).show();
 
 			if ("undefined" != typeof history.pushState) {
-				history.pushState({page: id}, id, remote.getHost()+"home#"+id);
+				history.pushState({}, id, remote.getHost()+"home#"+id);
 			}
 		}
 };
