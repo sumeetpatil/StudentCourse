@@ -36,5 +36,13 @@ insert IGNORE INTO course values(14, "Introduction to Big Data Analytics", 1, 2,
 insert IGNORE INTO course values(15, "Programming in JAVA", 1, 2, 2);
 insert IGNORE INTO course values(16, "Introduction to Operating System", 1, 2, 2);
 
+
+insert IGNORE INTO course values(1, "Mech Sub1", 2, NULL, 1);
+insert IGNORE INTO course values(2, "Mech Sub2", 2, NULL, 1);
+insert IGNORE INTO course values(3, "Mech Sub3", 2, NULL, 1);
+insert IGNORE INTO course values(4, "Mech Sub4", 2, NULL, 1);
+insert IGNORE INTO course values(5, "Mech Sub5", 2, NULL, 1);
+
+
 insert IGNORE INTO student values(1, "Sumeet","Patil" ,1, 1);
-insert IGNORE INTO student values(1, "Prashant","Gurav" ,1, 2);
+insert IGNORE INTO student values(2, "Prashant","Gurav" ,1, 2);
