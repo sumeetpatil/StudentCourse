@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 		$("#department").html("Dept - "+departmentData.name +", Sem - "+semesterData.name);
 
-		var coursesData = remote.get("http://localhost:8080/courses/search/findByDepartmentIdAndSemesterId?departmentId="+departmentData.id+"&semesterId="+semesterData.id);
+		var coursesData = remote.get(remote.getHost()+"courses/search/findByDepartmentIdAndSemesterId?departmentId="+departmentData.id+"&semesterId="+semesterData.id);
 		var elective = {};
 		$("#page_registration_table").html("");
 		coursesData._embedded.courses.forEach(function(data){
